@@ -1,5 +1,18 @@
 
 
+public class Trades{
+
+	public static void main(String[] args)
+	{
+	
+	}
+
+}
+
+
+
+
+
 public class Trade{
 
 	private String ID;
@@ -37,8 +50,10 @@ public class Trade{
 	}
 
 	@Override
-	public void toString(){
+	public String  toString(){
 	Sytem.out.println(this);
+
+	return (this.ID +" "+ this.Symbol+" "+ this.quantity+" "+ this.price);
 	}
 
 }
